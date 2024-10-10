@@ -3,6 +3,7 @@
 @import "./variables";
 @import "./components/Navigation.scss";
 @import "./components/Arrows.scss";
+@import "./components/CardHome.scss";
 
 * {
   font-family: var(--font-family);
@@ -12,7 +13,18 @@
 }
 
 body {
-  // background: var(--background);
+  $color: rgb(20, 20, 20); // --black-accent-color2
+  background-image: linear-gradient(
+      to right,
+      rgba($color, 0.8),
+      transparent,
+      transparent,
+      transparent
+    ),
+    url("../ferrari-home.jpg");
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-size: cover;
   color: var(--text-color);
   overflow: hidden;
 }
