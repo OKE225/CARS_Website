@@ -1,17 +1,15 @@
-import React from "react";
-import Navigation from "./components/Navigation";
-import Arrows from "./components/Arrows";
-import CardHome from "./components/CardHome";
+import React, { Component } from "react";
+
 import "./scss/App.scss";
 
-function App() {
-  return (
-    <div className="app">
-      <Navigation />
-      <CardHome />
-      <Arrows />
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="app">
+        <h1>Hello World</h1>
+      </div>
+    );
+  }
 }
 
 export default App;
