@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 @import "./variables";
+@import "./components/red/NavigationRed.scss";
+@import "./components/Arrows.scss";
+@import "./components/red/CardHomeRed.scss";
+@import "./components/red/ImgBackgroundRed.scss";
 
 * {
   font-family: var(--font-family);
@@ -11,5 +15,4 @@
 
 body {
   color: var(--text-color);
-  // overflow: hidden;
 }
