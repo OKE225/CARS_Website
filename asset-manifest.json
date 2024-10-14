@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/CARS_Website/static/css/main.e4734c01.css",
-    "main.js": "/CARS_Website/static/js/main.6ab59c07.js",
+    "main.css": "/CARS_Website/static/css/main.da50fc7a.css",
+    "main.js": "/CARS_Website/static/js/main.c31028b6.js",
+    "static/media/ferrari-home.jpg": "/CARS_Website/static/media/ferrari-home.cceed76712741f0c5fa8.jpg",
     "index.html": "/CARS_Website/index.html",
-    "main.e4734c01.css.map": "/CARS_Website/static/css/main.e4734c01.css.map",
-    "main.6ab59c07.js.map": "/CARS_Website/static/js/main.6ab59c07.js.map"
+    "main.da50fc7a.css.map": "/CARS_Website/static/css/main.da50fc7a.css.map",
+    "main.c31028b6.js.map": "/CARS_Website/static/js/main.c31028b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4734c01.css",
-    "static/js/main.6ab59c07.js"
+    "static/css/main.da50fc7a.css",
+    "static/js/main.c31028b6.js"
   ]
 }
