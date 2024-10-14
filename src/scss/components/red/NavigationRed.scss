@@ -1,0 +1,19 @@
+nav#navigation-red {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(var(--background-rgb), 0.8);
+  backdrop-filter: blur(10px);
+  cursor: default;
+  height: 50px;
+
+  h1 {
+    font-size: calc(26px);
+    padding: 5px 0;
+    cursor: pointer;
+
+    span {
+      color: var(--red-primary-color);
+    }
+  }
+}
