@@ -1,10 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 @import "./variables";
-@import "./components/red/NavigationRed.scss";
 @import "./components/Arrows.scss";
-@import "./components/red/CardHomeRed.scss";
+
 @import "./components/red/ImgBackgroundRed.scss";
+@import "./components/red/NavigationRed.scss";
+@import "./components/red/CardHomeRed.scss";
+
+@import "./components/green/ImgBackgroundGreen.scss";
+@import "./components/green/NavigationGreen.scss";
+@import "./components/green/CardHomeGreen.scss";
 
 * {
   font-family: var(--font-family);
