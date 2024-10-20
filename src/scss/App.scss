@@ -2,11 +2,14 @@
 
 @import "./variables";
 @import "./components/Arrows.scss";
+@import "./components/Carousel.scss";
 
+@import "./components/red/CarRed.scss";
 @import "./components/red/ImgBackgroundRed.scss";
 @import "./components/red/NavigationRed.scss";
 @import "./components/red/CardHomeRed.scss";
 
+@import "./components/green/CarGreen.scss";
 @import "./components/green/ImgBackgroundGreen.scss";
 @import "./components/green/NavigationGreen.scss";
 @import "./components/green/CardHomeGreen.scss";
@@ -20,4 +23,8 @@
 
 body {
   color: var(--text-color);
+}
+
+.app {
+  max-width: 200vw;
 }

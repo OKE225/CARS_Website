@@ -24,12 +24,16 @@
 }
 
 #arrows {
+  position: fixed;
+  left: 0;
+  top: 0;
   width: calc(100% - 40px);
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: calc(100vh - 50px);
   margin: 0 20px;
+  z-index: 5;
 
   button.left {
     @include arrow;

@@ -6,11 +6,11 @@ import CardHomeGreen from "./CardHomeGreen";
 export default class CarGreen extends Component {
   render() {
     return (
-      <>
+      <div className="car-green">
         <ImgBackgroundGreen />
         <NavigationGreen />
         <CardHomeGreen />
-      </>
+      </div>
     );
   }
 }
