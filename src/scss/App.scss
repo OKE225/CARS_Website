@@ -14,6 +14,11 @@
 @import "./components/green/NavigationGreen.scss";
 @import "./components/green/CardHomeGreen.scss";
 
+@import "./components/violet/CarViolet.scss";
+@import "./components/violet/ImgBackgroundViolet.scss";
+@import "./components/violet/NavigationViolet.scss";
+@import "./components/violet/CardHomeViolet.scss";
+
 * {
   font-family: var(--font-family);
   box-sizing: border-box;
