@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Arrows from "./Arrows";
+import Arrow from "./Arrow";
 
 type Props = {
   children: React.ReactNode[];
@@ -24,7 +24,6 @@ export default class Carousel extends Component<Props, State> {
     this.setState((prevState) => ({
       currentIndex:
         prevState.currentIndex <= 0 ? 0 : prevState.currentIndex - 1,
-      // currentIndex: (prevState.currentIndex - 1) % this.props.children.length,
     }));
   };
 
@@ -36,10 +35,8 @@ export default class Carousel extends Component<Props, State> {
         <div id="carousel" style={{ transform: `translate(${translateX}%)` }}>
           {this.props.children}
         </div>
-        <Arrows
-          nextSlide={this.handleNextSlide}
-          prevSlide={this.handlePrevSlide}
-        />
+        <Arrow position="left" prevSlide={this.handlePrevSlide} />
+        <Arrow position="right" nextSlide={this.handleNextSlide} />
       </div>
     );
   }

@@ -1,4 +1,6 @@
 @mixin arrow {
+  position: absolute;
+  top: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,6 +14,7 @@
   font-size: 2.5em;
   box-shadow: 0 0 5px 0 rgba(var(--black-accent-color1-rgb), 0.8);
   transition: 0.1s;
+  z-index: 100;
 
   &:hover {
     background: rgba(var(--black-accent-color1-rgb), 1);
@@ -23,25 +26,14 @@
   }
 }
 
-#arrows {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: calc(100% - 40px);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: calc(100vh - 50px);
-  margin: 0 20px;
-  z-index: 5;
+button.left {
+  left: 20px;
+  @include arrow;
+  padding-right: 5px;
+}
 
-  button.left {
-    @include arrow;
-    padding-right: 5px;
-  }
-
-  button.right {
-    @include arrow;
-    padding-left: 5px;
-  }
+button.right {
+  right: 20px;
+  @include arrow;
+  padding-left: 5px;
 }
