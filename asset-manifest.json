@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/CARS_Website/static/css/main.e1a3bd17.css",
-    "main.js": "/CARS_Website/static/js/main.ef82e420.js",
+    "main.css": "/CARS_Website/static/css/main.94cb2152.css",
+    "main.js": "/CARS_Website/static/js/main.78ab8777.js",
     "static/media/porsche-home.jpg": "/CARS_Website/static/media/porsche-home.2aaf488b8861466e9285.jpg",
+    "static/media/lamborghini-home.jpg": "/CARS_Website/static/media/lamborghini-home.bf0bd29ee2bd8f3013a8.jpg",
     "static/media/ferrari-home.jpg": "/CARS_Website/static/media/ferrari-home.cceed76712741f0c5fa8.jpg",
     "index.html": "/CARS_Website/index.html",
-    "main.e1a3bd17.css.map": "/CARS_Website/static/css/main.e1a3bd17.css.map",
-    "main.ef82e420.js.map": "/CARS_Website/static/js/main.ef82e420.js.map"
+    "main.94cb2152.css.map": "/CARS_Website/static/css/main.94cb2152.css.map",
+    "main.78ab8777.js.map": "/CARS_Website/static/js/main.78ab8777.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1a3bd17.css",
-    "static/js/main.ef82e420.js"
+    "static/css/main.94cb2152.css",
+    "static/js/main.78ab8777.js"
   ]
 }
