@@ -5,6 +5,7 @@
   position: absolute;
   left: 5%;
   width: 400px;
+  user-select: none;
 
   .card {
     position: relative;
@@ -42,6 +43,7 @@
     .text {
       font-size: 1.15em;
       line-height: 1.3em;
+      color: var(--text-color);
     }
 
     button.btn {
