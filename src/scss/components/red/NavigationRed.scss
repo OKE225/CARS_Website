@@ -9,13 +9,19 @@ nav#navigation-red {
   cursor: default;
   height: 50px;
 
-  h1 {
-    font-size: calc(26px);
-    padding: 5px 0;
-    cursor: pointer;
+  a {
+    text-decoration: none;
+    text-transform: none;
 
-    span {
-      color: var(--red-primary-color);
+    h1 {
+      font-size: calc(26px);
+      padding: 5px 0;
+      cursor: pointer;
+      color: var(--text-color);
+
+      span {
+        color: var(--red-primary-color);
+      }
     }
   }
 }
