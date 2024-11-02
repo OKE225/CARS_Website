@@ -8,16 +8,22 @@
 @import "./components/red/ImgBackgroundRed.scss";
 @import "./components/red/NavigationRed.scss";
 @import "./components/red/CardHomeRed.scss";
+@import "./components/red/page/MainContainer.scss";
+@import "./components/red/page/PageHeroDescription.scss";
 
 @import "./components/green/CarGreen.scss";
 @import "./components/green/ImgBackgroundGreen.scss";
 @import "./components/green/NavigationGreen.scss";
 @import "./components/green/CardHomeGreen.scss";
+@import "./components/green//page/MainContainer.scss";
+@import "./components/green//page/PageHeroDescription.scss";
 
 @import "./components/violet/CarViolet.scss";
 @import "./components/violet/ImgBackgroundViolet.scss";
 @import "./components/violet/NavigationViolet.scss";
 @import "./components/violet/CardHomeViolet.scss";
+@import "./components/violet//page/MainContainer.scss";
+@import "./components/violet//page/PageHeroDescription.scss";
 
 * {
   font-family: var(--font-family);
