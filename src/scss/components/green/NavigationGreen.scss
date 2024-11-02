@@ -1,13 +1,15 @@
 nav#navigation-green {
-  position: absolute;
+  position: fixed;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(var(--background-rgb), 0.8);
-  backdrop-filter: blur(10px);
+  background: rgba(var(--background-rgb), 0.2);
+  backdrop-filter: blur(15px);
   cursor: default;
   height: 50px;
+  border-bottom: 1px solid rgba(125, 125, 125, 0.25);
+  z-index: 10000;
 
   a {
     text-decoration: none;
