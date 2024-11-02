@@ -1,0 +1,37 @@
+$color: var(--black-accent-color2-rgb);
+
+#main-green-container {
+  .img-container {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    z-index: -10;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 80vh;
+      background: linear-gradient(
+        to top,
+        rgba($color, 0.8),
+        transparent,
+        transparent,
+        transparent
+      );
+    }
+
+    img {
+      width: 100%;
+      height: 80vh;
+      max-width: none;
+      max-height: none;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+}
