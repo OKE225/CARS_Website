@@ -10,6 +10,9 @@
 @import "./components/red/CardHomeRed.scss";
 @import "./components/red/page/MainContainer.scss";
 @import "./components/red/page/PageHeroDescription.scss";
+@import "./components/pages/CarRedPage.scss";
+@import "./components/red/page/SectionRightText.scss";
+@import "./components/red/page/ImgRightTextSection.scss";
 
 @import "./components/green/CarGreen.scss";
 @import "./components/green/ImgBackgroundGreen.scss";
@@ -17,6 +20,9 @@
 @import "./components/green/CardHomeGreen.scss";
 @import "./components/green//page/MainContainer.scss";
 @import "./components/green//page/PageHeroDescription.scss";
+@import "./components/pages/CarGreenPage.scss";
+@import "./components/green/page/SectionRightText.scss";
+@import "./components/green/page/ImgRightTextSection.scss";
 
 @import "./components/violet/CarViolet.scss";
 @import "./components/violet/ImgBackgroundViolet.scss";
@@ -24,6 +30,9 @@
 @import "./components/violet/CardHomeViolet.scss";
 @import "./components/violet//page/MainContainer.scss";
 @import "./components/violet//page/PageHeroDescription.scss";
+@import "./components/pages/CarVioletPage.scss";
+@import "./components/violet/page/SectionRightText.scss";
+@import "./components/violet/page/ImgRightTextSection.scss";
 
 * {
   font-family: var(--font-family);
