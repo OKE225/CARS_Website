@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CARS_Website/static/css/main.769a6437.css",
-    "main.js": "/CARS_Website/static/js/main.72eb9eed.js",
+    "main.css": "/CARS_Website/static/css/main.ad313287.css",
+    "main.js": "/CARS_Website/static/js/main.75ceee41.js",
     "static/media/lamborghini-1.jpg": "/CARS_Website/static/media/lamborghini-1.1e54f7d8dbfdaeff6aa0.jpg",
     "static/media/lamborghini-2.jpg": "/CARS_Website/static/media/lamborghini-2.6db596fb97a3e835b29e.jpg",
     "static/media/ferrari-2.jpg": "/CARS_Website/static/media/ferrari-2.e634fb669c27f14addfd.jpg",
@@ -9,14 +9,16 @@
     "static/media/porsche-home.jpg": "/CARS_Website/static/media/porsche-home.2aaf488b8861466e9285.jpg",
     "static/media/porsche-1.jpg": "/CARS_Website/static/media/porsche-1.562b772c4719973726a4.jpg",
     "static/media/ferrari-1.jpg": "/CARS_Website/static/media/ferrari-1.321f98da090c50d7d0e0.jpg",
+    "static/media/porsche-4.jpg": "/CARS_Website/static/media/porsche-4.74e44df6cf0315db391a.jpg",
+    "static/media/porsche-3.jpg": "/CARS_Website/static/media/porsche-3.253d1c95b177ff783585.jpg",
     "static/media/lamborghini-home.jpg": "/CARS_Website/static/media/lamborghini-home.bf0bd29ee2bd8f3013a8.jpg",
     "static/media/ferrari-home.jpg": "/CARS_Website/static/media/ferrari-home.cceed76712741f0c5fa8.jpg",
     "index.html": "/CARS_Website/index.html",
-    "main.769a6437.css.map": "/CARS_Website/static/css/main.769a6437.css.map",
-    "main.72eb9eed.js.map": "/CARS_Website/static/js/main.72eb9eed.js.map"
+    "main.ad313287.css.map": "/CARS_Website/static/css/main.ad313287.css.map",
+    "main.75ceee41.js.map": "/CARS_Website/static/js/main.75ceee41.js.map"
   },
   "entrypoints": [
-    "static/css/main.769a6437.css",
-    "static/js/main.72eb9eed.js"
+    "static/css/main.ad313287.css",
+    "static/js/main.75ceee41.js"
   ]
 }
