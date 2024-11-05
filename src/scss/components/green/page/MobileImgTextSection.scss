@@ -1,0 +1,39 @@
+.img-container-mobile {
+  width: 40%;
+  height: auto;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 0;
+  margin: 0;
+
+  img {
+    object-fit: cover;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .green-corners {
+    span.square {
+      position: absolute;
+      display: block;
+      background: var(--green-primary-color);
+      height: 50%;
+      width: 50%;
+      z-index: -1;
+
+      &:nth-child(1) {
+        left: -5px;
+        bottom: -5px;
+      }
+
+      &:nth-child(2) {
+        right: -5px;
+        top: -5px;
+      }
+    }
+  }
+}
