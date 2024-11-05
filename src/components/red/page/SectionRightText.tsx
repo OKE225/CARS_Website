@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ImgSection from "./ImgRightTextSection";
+import ImgSection from "./ImgTextSection";
 
 export default class SectionRightText extends Component {
   render() {
