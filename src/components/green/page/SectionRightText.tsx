@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import ImgSection from "./ImgTextSection";
+import ImgTextSection from "./ImgTextSection";
 
 export default class SectionRightText extends Component {
   render() {
     return (
       <div id="section-right-text-green">
-        <ImgSection />
+        <ImgTextSection />
         <div className="text-container">
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus
