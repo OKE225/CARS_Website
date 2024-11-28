@@ -13,6 +13,10 @@
 @import "./components/pages/CarRedPage.scss";
 @import "./components/red/page/SectionRightText.scss";
 @import "./components/red/page/ImgTextSection.scss";
+@import "./components/red/page/SectionLeftText.scss";
+@import "./components/red/page/ImgTextSection2.scss";
+@import "./components/red/page/MobileImgTextSection.scss";
+@import "./components/red/page/SectionWithMobileImg.scss";
 
 @import "./components/green/CarGreen.scss";
 @import "./components/green/ImgBackgroundGreen.scss";
@@ -37,6 +41,10 @@
 @import "./components/pages/CarVioletPage.scss";
 @import "./components/violet/page/SectionRightText.scss";
 @import "./components/violet/page/ImgTextSection.scss";
+@import "./components/violet/page/SectionLeftText.scss";
+@import "./components/violet/page/ImgTextSection2.scss";
+@import "./components/violet/page/MobileImgTextSection.scss";
+@import "./components/violet/page/SectionWithMobileImg.scss";
 
 * {
   font-family: var(--font-family);
