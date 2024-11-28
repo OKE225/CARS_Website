@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import ferrari2 from "../../../assets/img/ferrari-2.jpg";
+import ferrari3 from "../../../assets/img/ferrari-3.jpg";
 
-export default class ImgTextSection extends Component {
+export default class ImgTextSection2 extends Component {
   render() {
     return (
-      <div className="img-container">
-        <img src={ferrari2} alt="" />
+      <div className="img-container-2">
+        <img src={ferrari3} alt="" />
 
         <div className="red-corners">
           <span className="square"></span>

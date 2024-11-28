@@ -1,0 +1,15 @@
+#section-mobile-text-red {
+  display: flex;
+  align-items: center;
+  margin: 200px 0;
+
+  .text-container {
+    width: 60%;
+    padding: 0 100px;
+
+    p {
+      font-size: 1.1em;
+      margin: 25px 0;
+    }
+  }
+}
