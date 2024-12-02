@@ -1,11 +1,17 @@
-.content {
-  width: 80%;
-  margin: 0 auto;
+.green-page {
+  ::selection {
+    background-color: var(--green-secondary-color);
+    color: white;
+  }
+  .content {
+    width: 80%;
+    margin: 0 auto;
 
-  .btn-group {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+    .btn-group {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
   }
 }
