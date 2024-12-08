@@ -27,3 +27,9 @@ nav#navigation-red {
     }
   }
 }
+
+@media (max-width: 1024px) {
+  nav#navigation-red {
+    height: 40px;
+  }
+}
