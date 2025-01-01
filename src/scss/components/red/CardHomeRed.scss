@@ -64,7 +64,6 @@
 
     &:active .btn {
       transform: scale(0.98);
-      background: var(--red-primary-color);
     }
 
     .corners {
@@ -95,6 +94,33 @@
           right: -5px;
           bottom: -5px;
         }
+      }
+    }
+  }
+}
+
+@media (min-width: 1920px) {
+  #card-home-red {
+    left: calc(1920px * 0.05);
+    width: calc(1920px * 0.22);
+
+    .card {
+      header {
+        .year {
+          font-size: 21.5px;
+        }
+
+        .title {
+          font-size: 48.5px;
+        }
+      }
+
+      .text {
+        font-size: 18.5px;
+      }
+
+      button.btn {
+        font-size: 20.5px;
       }
     }
   }

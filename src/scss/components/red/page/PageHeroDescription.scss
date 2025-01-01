@@ -72,3 +72,9 @@
     }
   }
 }
+
+@media (min-width: 1920px) {
+  .content-red-container {
+    max-width: calc(1920px * 0.8);
+  }
+}

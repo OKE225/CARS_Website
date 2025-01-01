@@ -38,6 +38,16 @@ button.right {
   padding-left: 5px;
 }
 
+@media (min-width: 1920px) {
+  button.left {
+    left: calc(1920px * 0.01);
+  }
+
+  button.right {
+    right: calc(1920px * 0.01);
+  }
+}
+
 @media (max-width: 1600px) {
   button.left {
     left: 0.5%;
