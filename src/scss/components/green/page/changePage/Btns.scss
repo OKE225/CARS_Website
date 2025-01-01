@@ -6,10 +6,11 @@ a.page-link-green {
   text-decoration: none;
   padding: 10px 20px;
   border: 2px solid var(--green-primary-color);
-  transition: 0.25s;
+  transition: 0.2s;
 
   &:hover {
     background-color: var(--green-primary-color);
+    box-shadow: 0 0 10px 1px var(--green-primary-color);
     color: black;
   }
 

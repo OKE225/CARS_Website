@@ -58,11 +58,12 @@
         padding: 15px 0;
         margin-top: 50px;
         cursor: pointer;
-        transition: background 0.2s, transform 0.05s;
+        transition: background 0.2s, box-shadow 0.2s, transform 0.05s;
       }
 
       &:hover .btn {
         background: var(--violet-primary-color);
+        box-shadow: 0 0 10px 1px var(--violet-primary-color);
       }
 
       &:active .btn {
@@ -74,6 +75,7 @@
           position: absolute;
           display: block;
           background: var(--violet-primary-color);
+          box-shadow: 0 0 10px 1px var(--violet-primary-color);
           height: 40px;
           width: 40px;
           z-index: -1;

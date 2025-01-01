@@ -46,6 +46,7 @@
       position: absolute;
       display: block;
       background: var(--red-primary-color);
+      box-shadow: 0 0 10px 1px var(--red-primary-color);
       height: 40px;
       width: 40px;
       z-index: -1;

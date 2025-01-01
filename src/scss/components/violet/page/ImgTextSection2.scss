@@ -21,6 +21,7 @@
       position: absolute;
       display: block;
       background: var(--violet-primary-color);
+      box-shadow: 0 0 10px 1px var(--violet-primary-color);
       height: 50%;
       width: 50%;
       z-index: -1;
