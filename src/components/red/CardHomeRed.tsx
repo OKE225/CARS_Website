@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 export default class CardHomeRed extends Component {
   render() {
     return (
-      <Link to="/red-car">
-        <div id="card-home-red">
+      <div id="card-home-red">
+        <Link to="/red-car">
           <div className="card">
             <header>
               <h4 className="year">2137</h4>
@@ -25,8 +25,8 @@ export default class CardHomeRed extends Component {
               <span className="square"></span>
             </div>
           </div>
-        </div>
-      </Link>
+        </Link>
+      </div>
     );
   }
 }
