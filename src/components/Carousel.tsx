@@ -14,6 +14,16 @@ export default class Carousel extends Component<Props, State> {
     currentIndex: 0,
   };
 
+  intervalId: NodeJS.Timeout | null = null;
+
+  componentDidMount(): void {
+    this.startAutoSlide();
+  }
+
+  componentWillUnmount(): void {
+    this.stopAutoSlide();
+  }
+
   handleNextSlide = () => {
     this.setState((prevState) => ({
       currentIndex: (prevState.currentIndex + 1) % this.props.children.length,
@@ -25,6 +35,16 @@ export default class Carousel extends Component<Props, State> {
       currentIndex:
         prevState.currentIndex <= 0 ? 0 : prevState.currentIndex - 1,
     }));
+  };
+
+  startAutoSlide = () => {
+    this.intervalId = setInterval(this.handleNextSlide, 6000);
+  };
+
+  stopAutoSlide = () => {
+    if (this.intervalId) {
+      clearInterval(this.intervalId);
+    }
   };
 
   render() {
