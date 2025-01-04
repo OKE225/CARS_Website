@@ -108,33 +108,6 @@
   }
 }
 
-@media (min-width: 1920px) {
-  #card-home-green {
-    left: calc(1920px * 0.05);
-    width: calc(1920px * 0.22);
-
-    .card {
-      header {
-        .year {
-          font-size: 21.5px;
-        }
-
-        .title {
-          font-size: 48.5px;
-        }
-      }
-
-      .text {
-        font-size: 18.5px;
-      }
-
-      button.btn {
-        font-size: 20.5px;
-      }
-    }
-  }
-}
-
 @media (max-width: 1600px) {
   #card-home-green {
     width: 25%;
@@ -227,6 +200,31 @@
         border: 2px solid var(--green-primary-color);
         padding: 10px 0;
         font-size: calc(8px + 0.8vw);
+      }
+    }
+  }
+}
+
+@media (min-width: 1920px) {
+  #card-home-green {
+    left: calc(1920px * 0.05);
+    width: 400px;
+    a {
+      .card {
+        header {
+          .year {
+            font-size: 21.5px;
+          }
+          .title {
+            font-size: 48.5px;
+          }
+        }
+        .text {
+          font-size: 18.5px;
+        }
+        button.btn {
+          font-size: 20.5px;
+        }
       }
     }
   }
