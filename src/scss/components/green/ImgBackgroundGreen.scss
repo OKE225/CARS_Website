@@ -27,3 +27,16 @@ $color: var(--black-accent-color2-rgb);
     );
   }
 }
+
+@media (max-width: 1024px) {
+  #img-background-green::after {
+    content: "";
+    height: 100vh;
+    background: linear-gradient(
+      to top,
+      rgba($color, 0.9),
+      transparent,
+      transparent
+    );
+  }
+}
