@@ -29,14 +29,17 @@ $color: var(--black-accent-color2-rgb);
 }
 
 @media (max-width: 1024px) {
-  #img-background-violet::after {
-    content: "";
-    height: 100vh;
-    background: linear-gradient(
-      to top,
-      rgba($color, 0.9),
-      transparent,
-      transparent
-    );
+  #img-background-violet {
+    background-image: url("../../../assets/img/lamborghini-home-mobile.jpg");
+    &::after {
+      content: "";
+      height: 100vh;
+      background: linear-gradient(
+        to top,
+        rgba($color, 0.9),
+        transparent,
+        transparent
+      );
+    }
   }
 }
