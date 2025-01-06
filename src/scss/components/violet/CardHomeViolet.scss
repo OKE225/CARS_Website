@@ -120,60 +120,64 @@
 
 @media (max-width: 1024px) {
   #card-home-violet {
-    align-items: end;
-    bottom: 10px;
-    width: 98%;
-    height: 32%;
-    left: 1%;
+    display: block;
+    bottom: 25px;
+    width: 94%;
+    height: auto;
+    left: 3%;
+    right: 3%;
+    padding: 10px;
 
-    .card {
-      height: 100%;
-      padding: 17.5px 25px;
+    a {
+      .card {
+        padding: 25px 0;
 
-      header {
-        margin-bottom: 15px;
+        header {
+          margin: 0;
+          margin-bottom: 15px;
 
-        .year {
-          font-size: calc(10px + 0.8vw);
+          .year {
+            font-size: calc(14px + 0.8vw);
+          }
+
+          .title {
+            font-size: calc(40px + 0.8vw);
+          }
         }
 
-        .title {
-          font-size: calc(34px + 0.8vw);
+        .text {
+          width: 90%;
+          font-size: calc(12px + 0.8vw);
         }
-      }
 
-      .text {
-        width: 90%;
-        font-size: calc(8px + 0.8vw);
-      }
+        button.btn {
+          margin-top: 20px;
+          width: 90%;
+          border: 2px solid var(--violet-primary-color);
+          padding: 15px 0;
+          font-size: calc(14px + 0.8vw);
+        }
+        .corners {
+          .square {
+            &:nth-child(1) {
+              left: -3px;
+              top: -3px;
+            }
 
-      button.btn {
-        margin-top: 20px;
-        width: 90%;
-        border: 2px solid var(--violet-primary-color);
-        padding: 10px 0;
-        font-size: calc(8px + 0.8vw);
-      }
-      .corners {
-        .square {
-          &:nth-child(1) {
-            left: -3px;
-            top: -3px;
-          }
+            &:nth-child(2) {
+              right: -3px;
+              top: -3px;
+            }
 
-          &:nth-child(2) {
-            right: -3px;
-            top: -3px;
-          }
+            &:nth-child(3) {
+              left: -3px;
+              bottom: -3px;
+            }
 
-          &:nth-child(3) {
-            left: -3px;
-            bottom: -3px;
-          }
-
-          &:nth-child(4) {
-            right: -3px;
-            bottom: -3px;
+            &:nth-child(4) {
+              right: -3px;
+              bottom: -3px;
+            }
           }
         }
       }
@@ -183,21 +187,34 @@
 
 @media (max-width: 768px) {
   #card-home-violet {
-    height: 28%;
-    bottom: 5px;
+    a {
+      .card {
+        padding: 25px;
+        padding-top: 15px;
 
-    .card {
-      .text {
-        width: 100%;
-        font-size: calc(8px + 0.8vw);
-      }
+        header {
+          margin-bottom: 10px;
 
-      button.btn {
-        margin-top: 20px;
-        width: 100%;
-        border: 2px solid var(--violet-primary-color);
-        padding: 10px 0;
-        font-size: calc(8px + 0.8vw);
+          .year {
+            font-size: calc(10px + 0.8vw);
+          }
+
+          .title {
+            font-size: calc(36px + 0.8vw);
+          }
+        }
+
+        .text {
+          width: 100%;
+          font-size: calc(10px + 0.8vw);
+        }
+
+        button.btn {
+          margin-top: 15px;
+          width: 100%;
+          padding: 10px 0;
+          font-size: calc(12px + 0.8vw);
+        }
       }
     }
   }
