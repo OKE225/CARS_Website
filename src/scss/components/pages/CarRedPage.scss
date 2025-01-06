@@ -1,8 +1,11 @@
 .red-page {
+  overflow: hidden;
+
   ::selection {
     background-color: var(--red-secondary-color);
     color: white;
   }
+
   .content {
     width: 95%;
     margin: 0 auto;

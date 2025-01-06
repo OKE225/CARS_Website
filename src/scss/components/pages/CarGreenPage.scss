@@ -1,8 +1,11 @@
 .green-page {
+  overflow: hidden;
+
   ::selection {
     background-color: var(--green-secondary-color);
     color: white;
   }
+
   .content {
     width: 95%;
     margin: 0 auto;
