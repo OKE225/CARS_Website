@@ -13,12 +13,28 @@ footer {
       margin: 25px 50px;
       color: var(--text-color);
       text-decoration: none;
+      flex-direction: column-reverse;
+
+      span.text {
+        color: var(--text-color);
+      }
 
       span.icon {
         display: flex;
         align-items: center;
         margin-left: 5px;
         font-size: 1.5em;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    margin-top: 25px;
+    .footer-content {
+      a {
+        margin: 15px 30px;
       }
     }
   }

@@ -1,5 +1,6 @@
 .content-green-container {
   position: relative;
+  width: 90%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -68,6 +69,40 @@
       &:nth-child(4) {
         right: -5px;
         bottom: -5px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .content-green-container {
+    padding: 20px 10px;
+    width: 95%;
+    header {
+      .year {
+        font-size: 1.2em;
+        margin-bottom: -15px;
+      }
+    }
+    .content {
+      margin-top: 0;
+      p {
+        font-size: 18px;
+        margin: 5px;
+        &:nth-child(2) {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .content-green-container {
+    width: 90%;
+    .content {
+      p {
+        font-size: 15px;
       }
     }
   }

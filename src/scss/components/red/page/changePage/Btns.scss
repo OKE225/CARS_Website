@@ -24,3 +24,25 @@ a.page-link-red {
     height: 100%;
   }
 }
+
+@media (max-width: 1024px) {
+  a.page-link-red {
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  a.page-link-red {
+    padding: 7.5px 10px;
+
+    span.icon {
+      font-size: 0.8em;
+    }
+
+    span.icon,
+    p {
+      margin: 0 2px;
+      font-size: 0.8em;
+    }
+  }
+}

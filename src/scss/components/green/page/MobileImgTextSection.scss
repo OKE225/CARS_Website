@@ -38,3 +38,19 @@
     }
   }
 }
+
+@media (max-width: 1024px) {
+  .img-container-mobile {
+    width: 95%;
+    img {
+      height: auto;
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .img-container-mobile {
+    width: 90%;
+  }
+}

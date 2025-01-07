@@ -20,6 +20,16 @@
   }
 }
 
+@media (min-width: 1024px) {
+  .content {
+    width: 100%;
+
+    .btn-group {
+      width: 100%;
+    }
+  }
+}
+
 @media (min-width: 1920px) {
   .content {
     max-width: calc(1920px * 0.8);

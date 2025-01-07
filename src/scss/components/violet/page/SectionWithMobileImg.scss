@@ -13,3 +13,32 @@
     }
   }
 }
+
+@media (max-width: 1024px) {
+  #section-mobile-text-violet {
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+    .text-container {
+      width: 95%;
+      padding: 0;
+      p {
+        font-size: 18px;
+        &:nth-child(2) {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #section-mobile-text-violet {
+    .text-container {
+      width: 90%;
+      p {
+        font-size: 15px;
+      }
+    }
+  }
+}

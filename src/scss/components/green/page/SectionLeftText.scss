@@ -13,3 +13,44 @@
     }
   }
 }
+
+@media (max-width: 1024px) {
+  #section-left-text-green {
+    margin: 0;
+    margin-bottom: 50px;
+    flex-direction: column-reverse;
+    width: 100%;
+
+    .img-container-2 {
+      width: 95%;
+    }
+
+    .text-container {
+      width: 95%;
+      padding: 0;
+
+      p {
+        font-size: 18px;
+        &:nth-child(2) {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #section-left-text-green {
+    .img-container-2 {
+      width: 90%;
+    }
+
+    .text-container {
+      width: 90%;
+
+      p {
+        font-size: 15px;
+      }
+    }
+  }
+}
