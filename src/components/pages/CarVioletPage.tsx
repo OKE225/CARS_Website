@@ -4,9 +4,8 @@ import MainContainer from "../violet/page/MainContainer";
 import SectionRightText from "../violet/page/SectionRightText";
 import SectionLeftText from "../violet/page/SectionLeftText";
 import SectionWithMobileImg from "../violet/page/SectionWithMobileImg";
-import PrevBtn from "../violet/page/changePage/PrevBtn";
-import NextBtn from "../violet/page/changePage/NextBtn";
 import Footer from "../violet/page/footer/Footer";
+import ArrowChangePage from "../ArrowChangePage";
 
 export default class CarVioletPage extends Component {
   render() {
@@ -19,8 +18,8 @@ export default class CarVioletPage extends Component {
           <SectionLeftText />
           <SectionWithMobileImg />
           <div className="btn-group">
-            <PrevBtn />
-            <NextBtn />
+            <ArrowChangePage position="left" color="violet" prevPage="green" />
+            <ArrowChangePage position="right" color="violet" nextPage="red" />
           </div>
         </div>
         <Footer />
