@@ -4,7 +4,7 @@ import MainContainer from "../green/page/MainContainer";
 import SectionRightText from "../green/page/SectionRightText";
 import SectionLeftText from "../green/page/SectionLeftText";
 import SectionWithMobileImg from "../green/page/SectionWithMobileImg";
-import Footer from "../green/page/footer/Footer";
+import Footer from "../Footer";
 import ArrowChangePage from "../ArrowChangePage";
 
 export default class CarGreenPage extends Component {

@@ -4,7 +4,7 @@ import MainContainer from "../violet/page/MainContainer";
 import SectionRightText from "../violet/page/SectionRightText";
 import SectionLeftText from "../violet/page/SectionLeftText";
 import SectionWithMobileImg from "../violet/page/SectionWithMobileImg";
-import Footer from "../violet/page/footer/Footer";
+import Footer from "../Footer";
 import ArrowChangePage from "../ArrowChangePage";
 
 export default class CarVioletPage extends Component {
