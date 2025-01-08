@@ -20,12 +20,25 @@
   }
 }
 
-@media (min-width: 1024px) {
-  .content {
-    width: 100%;
-
-    .btn-group {
+@media (max-width: 1024px) {
+  .red-page {
+    .content {
       width: 100%;
+
+      .btn-group {
+        width: 95%;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .red-page {
+    .content {
+      .btn-group {
+        width: 90%;
+      }
     }
   }
 }
