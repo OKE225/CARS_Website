@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CARS_Website/static/css/main.ef4e0aeb.css",
-    "main.js": "/CARS_Website/static/js/main.b0408e96.js",
+    "main.css": "/CARS_Website/static/css/main.adcb0060.css",
+    "main.js": "/CARS_Website/static/js/main.02ca142b.js",
     "static/media/lamborghini-1.jpg": "/CARS_Website/static/media/lamborghini-1.1e54f7d8dbfdaeff6aa0.jpg",
     "static/media/lamborghini-2.jpg": "/CARS_Website/static/media/lamborghini-2.6db596fb97a3e835b29e.jpg",
     "static/media/lamborghini-3.jpeg": "/CARS_Website/static/media/lamborghini-3.a41ea268c3c42481f741.jpeg",
@@ -21,11 +21,11 @@
     "static/media/lamborghini-home.jpg": "/CARS_Website/static/media/lamborghini-home.bf0bd29ee2bd8f3013a8.jpg",
     "static/media/ferrari-home.jpg": "/CARS_Website/static/media/ferrari-home.cceed76712741f0c5fa8.jpg",
     "index.html": "/CARS_Website/index.html",
-    "main.ef4e0aeb.css.map": "/CARS_Website/static/css/main.ef4e0aeb.css.map",
-    "main.b0408e96.js.map": "/CARS_Website/static/js/main.b0408e96.js.map"
+    "main.adcb0060.css.map": "/CARS_Website/static/css/main.adcb0060.css.map",
+    "main.02ca142b.js.map": "/CARS_Website/static/js/main.02ca142b.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef4e0aeb.css",
-    "static/js/main.b0408e96.js"
+    "static/css/main.adcb0060.css",
+    "static/js/main.02ca142b.js"
   ]
 }
