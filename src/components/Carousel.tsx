@@ -53,7 +53,17 @@ export default class Carousel extends Component<Props, State> {
     return (
       <div id="carousel-container">
         <div id="carousel" style={{ transform: `translate(${translateX}%)` }}>
-          {this.props.children}
+          {React.Children.map(this.props.children, (child, index) => (
+            <div
+              style={{
+                position: "absolute",
+                left: `${index * 100}%`,
+                transition: "left 0.5s ease-in-out",
+                width: "100%",
+              }}>
+              {child}
+            </div>
+          ))}
         </div>
         <Arrow position="left" prevSlide={this.handlePrevSlide} />
         <Arrow position="right" nextSlide={this.handleNextSlide} />
