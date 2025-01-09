@@ -18,7 +18,10 @@ const ArrowChangePage: React.FC<Props> = ({
   return (
     <>
       {position === "left" && (
-        <Link to={`/${prevPage}-car`} className={`page-link-${color}`}>
+        <Link
+          to={`/${prevPage}-car`}
+          className={`page-link-${color}`}
+          onClick={() => window.scrollTo(0, 0)}>
           <span className="icon">
             <FaArrowLeft />
           </span>
@@ -26,7 +29,10 @@ const ArrowChangePage: React.FC<Props> = ({
         </Link>
       )}
       {position === "right" && (
-        <Link to={`/${nextPage}-car`} className={`page-link-${color}`}>
+        <Link
+          to={`/${nextPage}-car`}
+          className={`page-link-${color}`}
+          onClick={() => window.scrollTo(0, 0)}>
           <p>{nextPage} page</p>
           <span className="icon">
             <FaArrowRight />
