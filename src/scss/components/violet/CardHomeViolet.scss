@@ -39,31 +39,33 @@
 
         .title {
           font-size: calc(34px + 0.75vw);
-          text-decoration: underline;
         }
       }
 
       .text {
         font-size: calc(4px + 0.75vw);
         line-height: 1.3em;
-        color: var(--text-color);
+        color: var(--darker-text-color);
       }
 
       button.btn {
         width: 100%;
         background: var(--black-accent-color2);
         border: 3px solid var(--violet-primary-color);
-        color: var(--text-color);
+        color: var(--violet-primary-color);
+        font-weight: 500;
         font-size: calc(6px + 0.75vw);
         padding: 15px 0;
         margin-top: 50px;
         cursor: pointer;
-        transition: background 0.2s, box-shadow 0.2s, transform 0.05s;
+        transition: background 0.2s, box-shadow 0.2s, color 0.2s,
+          transform 0.05s;
       }
 
       &:hover .btn {
         background: var(--violet-primary-color);
         box-shadow: 0 0 10px 1px var(--violet-primary-color);
+        color: var(--text-color);
       }
 
       &:active .btn {
@@ -120,13 +122,12 @@
 
 @media (max-width: 1024px) {
   #card-home-violet {
-    display: block;
-    bottom: 25px;
+    display: flex;
     width: 94%;
     height: auto;
     left: 3%;
     right: 3%;
-    padding: 10px;
+    padding: 50px 10px;
 
     a {
       .card {
@@ -153,7 +154,7 @@
         button.btn {
           margin-top: 20px;
           width: 90%;
-          border: 2px solid var(--violet-primary-color);
+          border: 3px solid var(--violet-primary-color);
           padding: 15px 0;
           font-size: calc(14px + 0.8vw);
         }

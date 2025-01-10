@@ -1,5 +1,7 @@
 :root {
   --text-color: #eeeeee;
+  --desc-text-color: #dbdbdb;
+  --darker-text-color: #929292;
   --font-family: "Rubik", sans-serif;
 
   --background: #0a0a0a;
@@ -11,13 +13,13 @@
 
   --red-primary-color: #ff0040;
   --red-secondary-color: #990026;
-  --red-tertiary-color: #66001a;
+  --red-tertiary-color: #66001a40;
 
   --green-primary-color: #00ff15;
   --green-secondary-color: #00990d;
-  --green-tertiary-color: #006608;
+  --green-tertiary-color: #00660840;
 
   --violet-primary-color: #6a00ff;
   --violet-secondary-color: #400099;
-  --violet-tertiary-color: #2a0066;
+  --violet-tertiary-color: #2a006640;
 }

@@ -2,8 +2,8 @@
   overflow: hidden;
 
   ::selection {
-    background-color: var(--red-secondary-color);
-    color: white;
+    background-color: var(--red-tertiary-color);
+    color: var(--red-primary-color);
   }
 
   .content {
