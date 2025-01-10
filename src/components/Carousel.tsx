@@ -50,7 +50,7 @@ export default class Carousel extends Component<Props, State> {
   };
 
   startAutoSlide = () => {
-    this.intervalId = setInterval(this.handleNextSlide, 6000);
+    this.intervalId = setInterval(this.handleNextSlide, 7500);
   };
 
   stopAutoSlide = () => {
