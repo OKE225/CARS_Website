@@ -50,7 +50,7 @@ export default class Carousel extends Component<Props, State> {
   };
 
   startAutoSlide = () => {
-    this.intervalId = setInterval(this.handleNextSlide, 7500);
+    this.intervalId = setInterval(this.handleNextSlide, 5000);
   };
 
   stopAutoSlide = () => {
@@ -74,8 +74,16 @@ export default class Carousel extends Component<Props, State> {
             return null;
           })}
         </div>
-        <Arrow position="left" prevSlide={this.handlePrevSlide} />
-        <Arrow position="right" nextSlide={this.handleNextSlide} />
+        <Arrow
+          position="left"
+          prevSlide={this.handlePrevSlide}
+          interval={{ start: this.startAutoSlide, stop: this.stopAutoSlide }}
+        />
+        <Arrow
+          position="right"
+          nextSlide={this.handleNextSlide}
+          interval={{ start: this.startAutoSlide, stop: this.stopAutoSlide }}
+        />
       </div>
     );
   }
