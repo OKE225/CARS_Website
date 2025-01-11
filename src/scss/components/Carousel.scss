@@ -4,6 +4,18 @@
   #carousel {
     position: relative;
     height: 100vh;
-    transition: 0.25s all ease-in-out;
+
+    div.carousel-element {
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.5s ease-in-out;
+      pointer-events: none;
+    }
+
+    div.carousel-element.active {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: all;
+    }
   }
 }

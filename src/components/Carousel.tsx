@@ -61,21 +61,18 @@ export default class Carousel extends Component<Props, State> {
 
   render() {
     const { currentIndex } = this.state;
-    const translateX = -currentIndex * 100;
     return (
       <div id="carousel-container">
-        <div id="carousel" style={{ transform: `translate(${translateX}%)` }}>
-          {React.Children.map(this.props.children, (child, index) => (
-            <div
-              style={{
-                position: "absolute",
-                left: `${index * 100}%`,
-                transition: "left 0.5s ease-in-out",
-                width: "100%",
-              }}>
-              {child}
-            </div>
-          ))}
+        <div id="carousel">
+          {React.Children.map(this.props.children, (child, index) => {
+            if (React.isValidElement(child)) {
+              const isActive = currentIndex === index ? "active" : "";
+              return (
+                <div className={`carousel-element ${isActive}`}>{child}</div>
+              );
+            }
+            return null;
+          })}
         </div>
         <Arrow position="left" prevSlide={this.handlePrevSlide} />
         <Arrow position="right" nextSlide={this.handleNextSlide} />
