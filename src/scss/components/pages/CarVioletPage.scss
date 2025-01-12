@@ -1,11 +1,6 @@
 .violet-page {
   overflow: hidden;
 
-  ::selection {
-    background-color: var(--violet-tertiary-color);
-    color: var(--violet-primary-color);
-  }
-
   .content {
     width: 95%;
     margin: 0 auto;

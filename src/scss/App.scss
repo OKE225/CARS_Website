@@ -52,6 +52,11 @@
 @import "./components/violet/page/changePage/Btns.scss";
 @import "./components/violet/page/footer/Footer.scss";
 
+::selection {
+  background-color: var(--blue-selection-bg);
+  color: var(--blue-selection-text);
+}
+
 * {
   font-family: var(--font-family);
   box-sizing: border-box;

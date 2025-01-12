@@ -7,9 +7,15 @@
     width: 60%;
     padding: 0 100px;
 
+    h2 {
+      color: var(--red-primary-color);
+      font-size: 1.75em;
+    }
+
     p {
       font-size: 1.1em;
       margin: 25px 0;
+      color: var(--darker-text-color);
     }
   }
 }
@@ -19,12 +25,20 @@
     flex-direction: column;
     margin: 0;
     width: 100%;
+
     .text-container {
       width: 95%;
       padding: 0;
+
+      h2 {
+        margin-top: 35px;
+      }
+
       p {
         font-size: 18px;
-        &:nth-child(2) {
+        margin-top: 10px;
+
+        &:last-child {
           display: none;
         }
       }
