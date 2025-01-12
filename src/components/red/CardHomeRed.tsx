@@ -8,14 +8,16 @@ export default class CardHomeRed extends Component {
         <Link to="/red-car">
           <div className="card">
             <header>
-              <h4 className="year">2137</h4>
-              <h2 className="title">Template</h2>
+              <h4 className="year">1938</h4>
+              <h2 className="title">Ferrari</h2>
             </header>
             <div className="text">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod
-              illo corrupti dolorem distinctio, minima, magni ratione nihil
-              ducimus, amet placeat pariatur officiis soluta aliquid labore
-              cumque facere ipsum similique praesentium!
+              Ferrari, founded by Enzo Ferrari in 1938, is a symbol of Italian
+              automotive excellence. The brand launched its first model, the
+              Ferrari 125S, in 1947, revolutionizing racing and sports car
+              design. Over the years, Ferrari has achieved significant success
+              in Formula 1 and other series, becoming synonymous with luxury and
+              prestige worldwide.
             </div>
             <button className="btn">Explore Now</button>
             <div className="corners">

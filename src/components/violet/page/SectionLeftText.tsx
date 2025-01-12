@@ -6,24 +6,20 @@ export default class SectionLeftText extends Component {
     return (
       <div id="section-left-text-violet">
         <div className="text-container">
+          <h2>Luxury and Customization</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, at
-            magnam! Tempore veniam delectus praesentium enim reiciendis
-            recusandae explicabo natus atque expedita veritatis at maiores neque
-            voluptatem tenetur incidunt porro quasi, blanditiis eius dolores
-            adipisci corrupti animi quaerat aperiam. Sit rem error itaque
-            quibusdam autem quis laboriosam nulla, ipsum molestias vero officiis
-            optio ratione illum facere praesentium possimus odit quia ad
-            blanditiis vitae ea dolore velit? Totam qui impedit voluptatem
-            ratione tenetur ipsam ipsum voluptatibus quam repellendus adipisci
-            amet ea, cupiditate quasi, molestiae, corporis consectetur harum
-            possimus officia in. Odio fuga laboriosam quos dicta at, ratione
-            maxime veniam modi id.
+            Lamborghini vehicles are synonymous with luxury and exclusivity,
+            offering customers an unparalleled level of personalization. Through
+            its Ad Personam program, Lamborghini allows buyers to customize
+            nearly every aspect of their vehicle, from exterior colors to
+            interior materials and finishes.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
-            eum reiciendis. Doloribus incidunt officia, sit odit laudantium
-            nulla repellat, porro, provident nostrum soluta mollitia placeat!
+            This emphasis on bespoke craftsmanship ensures that each Lamborghini
+            is not only a high-performance machine but also a reflection of its
+            owner's style and personality. The attention to detail in both
+            design and manufacturing processes underscores Lamborghini's
+            commitment to delivering an exceptional ownership experience.
           </p>
         </div>
         <ImgTextSection2 />

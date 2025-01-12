@@ -8,14 +8,16 @@ export default class CardHomeGreen extends Component {
         <Link to="/green-car">
           <div className="card">
             <header>
-              <h4 className="year">2137</h4>
-              <h2 className="title">Template</h2>
+              <h4 className="year">1931</h4>
+              <h2 className="title">Porsche</h2>
             </header>
             <div className="text">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod
-              illo corrupti dolorem distinctio, minima, magni ratione nihil
-              ducimus, amet placeat pariatur officiis soluta aliquid labore
-              cumque facere ipsum similique praesentium!
+              Porsche was founded in 1931 by Ferdinand Porsche in Stuttgart,
+              Germany, initially as a vehicle development and consulting firm.
+              Its first major project was designing the Volkswagen Beetle. After
+              World War II, Ferdinand's son, Ferry Porsche, introduced the
+              Porsche 356 in 1948, marking the brand's entry into
+              high-performance sports cars.
             </div>
             <button className="btn">Explore Now</button>
             <div className="corners">

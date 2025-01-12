@@ -7,19 +7,19 @@ export default class SectionRightText extends Component {
       <div id="section-right-text-green">
         <ImgTextSection />
         <div className="text-container">
+          <h2>Technological Innovations</h2>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus
-            mollitia ipsum aut dolore velit corporis earum suscipit vitae
-            sapiente saepe enim vel quaerat ad, incidunt eius accusamus.
-            Dignissimos, nisi consectetur.
+            Porsche has always been at the forefront of automotive technology.
+            The brand pioneered various innovations, such as the introduction of
+            turbocharging in production vehicles and advanced aerodynamics in
+            sports car design. The 911 Turbo, launched in 1974, was one of the
+            first production cars to feature a turbocharged engine, setting a
+            new standard for performance.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-            veritatis amet doloribus repellat eveniet provident, ad hic eos
-            reiciendis rem totam, dolor voluptatem corrupti? Soluta, esse aut.
-            Excepturi quasi quas delectus vero quaerat? Laudantium est nostrum
-            voluptatibus quis tempora voluptatem modi, nemo, itaque illum
-            reprehenderit adipisci maiores. Non, aut nesciunt.
+            Furthermore, Porsche has embraced hybrid technology with models like
+            the Panamera E-Hybrid and Taycan, showcasing its commitment to
+            sustainability while maintaining high performance.
           </p>
         </div>
       </div>

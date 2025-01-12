@@ -7,41 +7,29 @@ export default class SectionWithMobileImg extends Component {
       <div id="section-mobile-text-violet">
         <MobileImgTextSection />
         <div className="text-container">
+          <h2>Motorsport Heritage and Global Influence</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            dicta cupiditate culpa voluptatibus voluptate consectetur repellat
-            ad magni, quasi quis, natus asperiores. Ratione debitis natus, sunt
-            nisi illo totam quia autem. Dolore blanditiis alias odio nemo
-            voluptatem doloremque magnam in dolor esse error! Fugit, beatae
-            reiciendis accusantium placeat tempore architecto autem in odio?
-            Earum doloremque fugit possimus alias amet animi illo fuga dolore
-            corrupti inventore, est eveniet voluptatem odit similique unde
-            delectus laborum velit nam eius error consequatur! Architecto rerum
-            saepe ipsa sequi ipsam. Quam aliquid, suscipit perspiciatis ullam
-            error sed cum harum sapiente, ut fugiat nobis natus ducimus est
-            architecto, cumque modi impedit facere atque reiciendis maxime
-            voluptatum! Numquam ipsa, illo, quo perferendis repellat corporis
-            expedita magni voluptas harum error, molestiae nulla sit eaque alias
-            reiciendis tenetur omnis voluptatibus vero labore explicabo adipisci
-            fugit officia deleniti! Consequatur perspiciatis, libero animi,
-            vitae molestiae vel possimus commodi natus assumenda tempora ullam
-            blanditiis fugit! Facilis, esse officiis blanditiis, corrupti a
-            voluptatibus soluta rerum placeat nisi explicabo facere ex quas, sit
-            nam doloremque voluptates asperiores cumque accusamus iure quis sed!
-            Aliquam voluptate modi et possimus, dolores labore mollitia dolorem
-            tempore minima adipisci est unde cum laborum alias vitae laboriosam
-            eius. Nobis, placeat nemo.
+            Motorsport has played a crucial role in shaping Lamborghini's
+            identity and engineering prowess. The brand has participated in
+            various racing disciplines, including GT racing and endurance
+            events. Lamborghini's commitment to motorsport not only enhances its
+            reputation but also serves as a testing ground for new technologies
+            that eventually make their way into production vehicles. The success
+            of the Lamborghini Super Trofeo series showcases the brand's
+            dedication to racing while providing customers with an opportunity
+            to experience the thrill of competition behind the wheel of a
+            Lamborghini.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
-            impedit ad, pariatur omnis perferendis sed, eligendi placeat ipsum
-            laudantium cupiditate natus optio alias earum molestiae quos itaque
-            accusantium maxime rem voluptatibus sit consequuntur doloremque,
-            illo qui. Voluptas est ex nam in nesciunt possimus quos! Hic
-            suscipit architecto aliquam facilis, adipisci laboriosam autem
-            assumenda facere illo ducimus ipsa dolore alias qui nihil eos maxime
-            voluptatibus reiciendis quis! Dolore consequatur debitis atque sint
-            eaque nesciunt nihil modi!
+            Today, Lamborghini is recognized as one of the leading luxury
+            automotive brands globally. Its distinctive designs and powerful
+            performance have garnered a dedicated following among car
+            enthusiasts and collectors alike. The brand continues to expand its
+            presence in emerging markets while maintaining its roots in Italian
+            craftsmanship and engineering excellence. As Lamborghini evolves, it
+            remains committed to producing vehicles that embody the spirit of
+            innovation and performance that has defined the brand since its
+            inception.
           </p>
         </div>
       </div>

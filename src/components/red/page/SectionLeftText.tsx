@@ -6,24 +6,18 @@ export default class SectionLeftText extends Component {
     return (
       <div id="section-left-text-red">
         <div className="text-container">
+          <h2>Technological Innovations</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, at
-            magnam! Tempore veniam delectus praesentium enim reiciendis
-            recusandae explicabo natus atque expedita veritatis at maiores neque
-            voluptatem tenetur incidunt porro quasi, blanditiis eius dolores
-            adipisci corrupti animi quaerat aperiam. Sit rem error itaque
-            quibusdam autem quis laboriosam nulla, ipsum molestias vero officiis
-            optio ratione illum facere praesentium possimus odit quia ad
-            blanditiis vitae ea dolore velit? Totam qui impedit voluptatem
-            ratione tenetur ipsam ipsum voluptatibus quam repellendus adipisci
-            amet ea, cupiditate quasi, molestiae, corporis consectetur harum
-            possimus officia in. Odio fuga laboriosam quos dicta at, ratione
-            maxime veniam modi id.
+            Ferrari is renowned for its use of cutting-edge technology in the
+            production of its cars. The brand continually invests in research
+            and development, allowing it to introduce innovative technical
+            solutions. V8 and V12 engines offer not only high power but also a
+            distinctive sound that attracts automotive enthusiasts.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
-            eum reiciendis. Doloribus incidunt officia, sit odit laudantium
-            nulla repellat, porro, provident nostrum soluta mollitia placeat!
+            In recent years, the company has also begun to explore hybrid and
+            electric technologies, indicating its commitment to sustainable
+            development and the future of automotive engineering.
           </p>
         </div>
         <ImgTextSection2 />

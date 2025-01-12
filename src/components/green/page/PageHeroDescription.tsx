@@ -10,24 +10,16 @@ export default class PageHeroDescription extends Component {
         </header>
         <div className="content">
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
-            iure omnis quasi, eveniet, placeat, recusandae voluptates assumenda
-            in quia dolorem a? Rerum fugiat odio architecto provident fugit a
-            nesciunt ratione dolorum molestias iusto, atque quo totam quod
-            dolores corporis vitae quibusdam consectetur sunt. Animi fugit ad
-            quae consectetur alias aspernatur nulla odit autem quod totam
-            deleniti ipsum odio dolorem, beatae natus assumenda minima
-            asperiores officiis. Repudiandae necessitatibus sequi vel adipisci
-            tempore! Provident cumque hic autem.
-          </p>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores
-            qui quis voluptas ut officiis nobis alias error cumque placeat
-            porro, ea labore fugiat mollitia optio accusantium nesciunt! Fugit
-            tempora vitae ad et porro voluptates repellat. Ducimus, dignissimos
-            eius doloribus exercitationem laborum repellat voluptas maiores
-            necessitatibus magni a? Voluptates hic aut, id ab repellendus
-            veritatis possimus veniam quia, itaque voluptate delectus?
+            Porsche's history began in 1931 when Ferdinand Porsche founded the
+            company "Dr. Ing. h. c. F. Porsche GmbH" in Stuttgart, Germany.
+            Initially, the firm focused on vehicle development and consulting
+            rather than manufacturing cars under its own name. The first
+            significant project was the design of the Volkswagen Beetle, which
+            became one of the most successful car designs in history. After
+            World War II, Ferdinand's son, Ferry Porsche, took the reins and
+            introduced the first car to carry the Porsche name—the Porsche
+            356—in 1948. This model marked the beginning of Porsche's legacy as
+            a manufacturer of high-performance sports cars.
           </p>
         </div>
         <div className="corners">
