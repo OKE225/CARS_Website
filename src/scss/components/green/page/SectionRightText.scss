@@ -9,7 +9,7 @@
 
     h2 {
       color: var(--green-primary-color);
-      font-size: 1.75em;
+      font-size: 2em;
     }
 
     p {
@@ -20,10 +20,32 @@
   }
 }
 
+@media (max-width: 1600px) {
+  #section-right-text-green {
+    margin: 50px 0;
+    .text-container {
+      padding: 0 50px;
+    }
+  }
+}
+
+@media (max-width: 1280px) {
+  #section-right-text-green {
+    margin: 25px 0;
+    .text-container {
+      padding: 0 25px;
+
+      p:last-child {
+        display: none;
+      }
+    }
+  }
+}
+
 @media (max-width: 1024px) {
   #section-right-text-green {
     margin: 0;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     flex-direction: column;
     width: 100%;
 
@@ -42,10 +64,6 @@
       p {
         font-size: 18px;
         margin-top: 10px;
-
-        &:last-child {
-          display: none;
-        }
       }
     }
   }
