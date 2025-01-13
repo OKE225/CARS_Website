@@ -1,28 +1,22 @@
 import React from "react";
-import ImgTextSection from "./ImgTextSection";
-import ImgTextSection2 from "./ImgTextSection2";
-import MobileImgTextSection from "./MobileImgTextSection";
+import SectionImg from "./SectionImg";
+import lamborghini2 from "../../../assets/img/lamborghini-2.jpg";
+import lamborghini3 from "../../../assets/img/lamborghini-3.jpeg";
+import lamborghini4 from "../../../assets/img/lamborghini-4.jpg";
 
 type Props = {
   type: "right-text" | "left-text" | "mobile";
   header: string;
   paragraph1: string;
   paragraph2: string;
-  img?: string;
 };
 
-const Section: React.FC<Props> = ({
-  type,
-  header,
-  paragraph1,
-  paragraph2,
-  img,
-}) => {
+const Section: React.FC<Props> = ({ type, header, paragraph1, paragraph2 }) => {
   switch (type) {
     case "right-text":
       return (
         <div id="section-right-text-violet">
-          <ImgTextSection />
+          <SectionImg type="right-text" image={lamborghini2} />
           <div className="text-container">
             <h2>{header}</h2>
             <p>{paragraph1}</p>
@@ -38,13 +32,13 @@ const Section: React.FC<Props> = ({
             <p>{paragraph1}</p>
             <p>{paragraph2}</p>
           </div>
-          <ImgTextSection2 />
+          <SectionImg type="left-text" image={lamborghini3} />
         </div>
       );
     case "mobile":
       return (
         <div id="section-mobile-text-violet">
-          <MobileImgTextSection />
+          <SectionImg type="mobile" image={lamborghini4} />
           <div className="text-container">
             <h2>{header}</h2>
             <p>{paragraph1}</p>
@@ -52,8 +46,9 @@ const Section: React.FC<Props> = ({
           </div>
         </div>
       );
+    default:
+      return null;
   }
-  return null;
 };
 
 export default Section;
