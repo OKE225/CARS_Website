@@ -9,7 +9,7 @@ export default class CarGreenPage extends Component {
   render() {
     return (
       <div className="green-page">
-        <NavigationGreen />
+        <NavigationGreen color="green" />
         <MainContainer />
         <div className="content">
           <Section

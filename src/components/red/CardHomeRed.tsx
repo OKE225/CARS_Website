@@ -1,24 +1,24 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-export default class CardHomeRed extends Component {
+type Props = {
+  color: string;
+  yearBrand: number;
+  nameBrand: string;
+  descBrand: string;
+};
+
+export default class CardHomeRed extends Component<Props> {
   render() {
     return (
-      <div id="card-home-red">
-        <Link to="/red-car">
+      <div id={`card-home-${this.props.color}`}>
+        <Link to={`/${this.props.color}-car`}>
           <div className="card">
             <header>
-              <h4 className="year">1938</h4>
-              <h2 className="title">Ferrari</h2>
+              <h4 className="year">{this.props.yearBrand}</h4>
+              <h2 className="title">{this.props.nameBrand}</h2>
             </header>
-            <div className="text">
-              Ferrari, founded by Enzo Ferrari in 1938, is a symbol of Italian
-              automotive excellence. The brand launched its first model, the
-              Ferrari 125S, in 1947, revolutionizing racing and sports car
-              design. Over the years, Ferrari has achieved significant success
-              in Formula 1 and other series, becoming synonymous with luxury and
-              prestige worldwide.
-            </div>
+            <div className="text">{this.props.descBrand}</div>
             <button className="btn">Explore Now</button>
             <div className="corners">
               <span className="square"></span>

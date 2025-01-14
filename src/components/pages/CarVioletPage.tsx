@@ -9,7 +9,7 @@ export default class CarVioletPage extends Component {
   render() {
     return (
       <div className="violet-page">
-        <NavigationViolet />
+        <NavigationViolet color="violet" />
         <MainContainer />
         <div className="content">
           <Section

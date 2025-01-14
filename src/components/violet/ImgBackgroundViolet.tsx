@@ -1,7 +1,11 @@
 import React, { Component } from "react";
 
-export default class ImgBackgroundViolet extends Component {
+type Props = {
+  color: string;
+};
+
+export default class ImgBackgroundViolet extends Component<Props> {
   render() {
-    return <div id="img-background-violet"></div>;
+    return <div id={`img-background-${this.props.color}`}></div>;
   }
 }

@@ -1,10 +1,14 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-export default class NavigationRed extends Component {
+type Props = {
+  color: string;
+};
+
+export default class NavigationRed extends Component<Props> {
   render() {
     return (
-      <nav id="navigation-red">
+      <nav id={`navigation-${this.props.color}`}>
         <Link to="/">
           <h1>
             CA<span>RS</span>

@@ -9,7 +9,7 @@ export default class CarRedPage extends Component {
   render() {
     return (
       <div className="red-page">
-        <NavigationRed />
+        <NavigationRed color="red" />
         <MainContainer />
         <div className="content">
           <Section
