@@ -10,7 +10,7 @@ type Props = {
   descBrand: string;
 };
 
-const CarPage: React.FC<Props> = (props) => {
+const CarCarouselPage: React.FC<Props> = (props) => {
   return (
     <div className="car-page">
       <ImgBackground color={props.color} />
@@ -25,4 +25,4 @@ const CarPage: React.FC<Props> = (props) => {
   );
 };
 
-export default CarPage;
+export default CarCarouselPage;
