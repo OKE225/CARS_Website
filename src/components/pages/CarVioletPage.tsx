@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import NavigationViolet from "../violet/NavigationViolet";
+// import NavigationViolet from "../violet/NavigationViolet";
+import Navigation from "../Navigation";
 import MainContainer from "../violet/page/MainContainer";
 import Footer from "../Footer";
 import ArrowChangePage from "../ArrowChangePage";
@@ -9,7 +10,7 @@ export default class CarVioletPage extends Component {
   render() {
     return (
       <div className="violet-page">
-        <NavigationViolet color="violet" />
+        <Navigation color="violet" />
         <MainContainer />
         <div className="content">
           <Section

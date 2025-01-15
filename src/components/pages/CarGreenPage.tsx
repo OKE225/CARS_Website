@@ -1,15 +1,17 @@
 import React, { Component } from "react";
-import NavigationGreen from "../green/NavigationGreen";
+// import NavigationGreen from "../green/NavigationGreen";
 import MainContainer from "../green/page/MainContainer";
 import Footer from "../Footer";
 import ArrowChangePage from "../ArrowChangePage";
 import Section from "../green/page/Section";
+import Navigation from "../Navigation";
 
 export default class CarGreenPage extends Component {
   render() {
     return (
       <div className="green-page">
-        <NavigationGreen color="green" />
+        {/* <NavigationGreen color="green" /> */}
+        <Navigation color="green" />
         <MainContainer />
         <div className="content">
           <Section

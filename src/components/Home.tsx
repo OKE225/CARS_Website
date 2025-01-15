@@ -1,16 +1,14 @@
 import React, { Component } from "react";
 
-import CarRed from "./red/CarRed";
-import CarGreen from "./green/CarGreen";
-import CarViolet from "./violet/CarViolet";
 import Carousel from "./Carousel";
+import CarPage from "./CarPage";
 
 export default class Home extends Component {
   render() {
     return (
       <>
         <Carousel>
-          <CarRed
+          <CarPage
             color="red"
             yearBrand={1938}
             nameBrand="Ferrari"
@@ -21,7 +19,7 @@ export default class Home extends Component {
               in Formula 1 and other series, becoming synonymous with luxury and
               prestige worldwide."
           />
-          <CarGreen
+          <CarPage
             color="green"
             yearBrand={1931}
             nameBrand="Porsche"
@@ -32,7 +30,7 @@ export default class Home extends Component {
               Porsche 356 in 1948, marking the brand's entry into
               high-performance sports cars."
           />
-          <CarViolet
+          <CarPage
             color="violet"
             yearBrand={1963}
             nameBrand="Lamborghini"

@@ -1,15 +1,17 @@
 import React, { Component } from "react";
-import NavigationRed from "../red/NavigationRed";
+// import NavigationRed from "../red/NavigationRed";
 import MainContainer from "../red/page/MainContainer";
 import Footer from "../Footer";
 import ArrowChangePage from "../ArrowChangePage";
 import Section from "../red/page/Section";
+import Navigation from "../Navigation";
 
 export default class CarRedPage extends Component {
   render() {
     return (
       <div className="red-page">
-        <NavigationRed color="red" />
+        {/* <NavigationRed color="red" /> */}
+        <Navigation color="red" />
         <MainContainer />
         <div className="content">
           <Section
