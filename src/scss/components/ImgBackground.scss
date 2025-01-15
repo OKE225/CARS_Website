@@ -1,0 +1,76 @@
+$color: var(--black-accent-color2-rgb);
+
+@mixin imgBackground {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: -10;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+      to right,
+      rgba($color, 0.8),
+      transparent,
+      transparent,
+      transparent
+    );
+  }
+}
+
+#img-background-red,
+#img-background-green,
+#img-background-violet {
+  @include imgBackground();
+}
+
+#img-background-red {
+  background-image: url("../../assets/img/ferrari-home.jpg");
+}
+
+#img-background-green {
+  background-image: url("../../assets/img/porsche-home.jpg");
+}
+
+#img-background-violet {
+  background-image: url("../../assets/img/lamborghini-home.jpg");
+}
+
+@media (max-width: 1024px) {
+  #img-background-red,
+  #img-background-green,
+  #img-background-violet {
+    &::after {
+      content: "";
+      height: 100vh;
+      background: linear-gradient(
+        to top,
+        rgba($color, 1),
+        rgba($color, 0.25),
+        transparent,
+        transparent
+      );
+    }
+  }
+
+  #img-background-red {
+    background-image: url("../../assets/img/ferrari-home-mobile.jpg");
+  }
+
+  #img-background-green {
+    background-image: url("../../assets/img/porsche-home-mobile.jpg");
+  }
+
+  #img-background-violet {
+    background-image: url("../../assets/img/lamborghini-home-mobile.jpg");
+  }
+}
