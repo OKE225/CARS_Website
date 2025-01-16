@@ -1,0 +1,31 @@
+.red-page,
+.green-page,
+.violet-page {
+  overflow: hidden;
+
+  .content {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .red-page,
+  .green-page,
+  .violet-page {
+    .content {
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width: 1920px) {
+  .red-page,
+  .green-page,
+  .violet-page {
+    .content {
+      max-width: calc(1920px * 0.8);
+    }
+  }
+}

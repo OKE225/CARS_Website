@@ -3,34 +3,16 @@
 @import "./variables";
 @import "./components/Arrow.scss";
 @import "./components/Carousel.scss";
-@import "./components/CarPage.scss";
+@import "./components/CarCarouselPage.scss";
 @import "./components/ImgBackground.scss";
 @import "./components/Navigation.scss";
 @import "./components/CardCarouselElement.scss";
-
-@import "./components/red/page/MainContainer.scss";
-@import "./components/red/page/PageHeroDescription.scss";
-@import "./components/pages/CarRedPage.scss";
-@import "./components/red/page/Section.scss";
-@import "./components/red/page/changePage/Btns.scss";
-@import "./components/red/page/footer/Footer.scss";
-@import "./components/red/page/SectionImg.scss";
-
-@import "./components/green//page/MainContainer.scss";
-@import "./components/green//page/PageHeroDescription.scss";
-@import "./components/pages/CarGreenPage.scss";
-@import "./components/green/page/Section.scss";
-@import "./components/green/page/changePage/Btns.scss";
-@import "./components/green/page/footer/Footer.scss";
-@import "./components/green/page/SectionImg.scss";
-
-@import "./components/violet//page/MainContainer.scss";
-@import "./components/violet//page/PageHeroDescription.scss";
-@import "./components/pages/CarVioletPage.scss";
-@import "./components/violet/page/Section.scss";
-@import "./components/violet/page/changePage/Btns.scss";
-@import "./components/violet/page/footer/Footer.scss";
-@import "./components/violet/page/SectionImg.scss";
+@import "./components/Footer.scss";
+@import "./components/MainContainer.scss";
+@import "./components/PageHeroDescription.scss";
+@import "./components/Section.scss";
+@import "./components/SectionImg.scss";
+@import "./components/CarSubPage.scss";
 
 ::selection {
   background-color: var(--blue-selection-bg);
