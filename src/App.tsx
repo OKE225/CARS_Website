@@ -3,7 +3,7 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./scss/App.scss";
 import Home from "./components/Home";
-import CarSubPage from "./components/CarSubPage";
+import CarSubPage from "./components/Subpage/CarSubPage";
 import ferrari1 from "./assets/img/ferrari-1.jpg";
 import ferrari2 from "./assets/img/ferrari-2.jpg";
 import ferrari3 from "./assets/img/ferrari-3.jpg";

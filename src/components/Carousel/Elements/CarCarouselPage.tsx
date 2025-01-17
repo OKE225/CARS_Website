@@ -1,6 +1,6 @@
 import React from "react";
 import ImgBackground from "./ImgBackground";
-import Navigation from "./Navigation";
+import Navigation from "../../Navigation";
 import CardCarouselElement from "./CardCarouselElement";
 
 type Props = {

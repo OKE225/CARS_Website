@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Arrow from "./Arrow";
+import Arrow from "../Arrow";
 
 type Props = {
   children: React.ReactNode[];

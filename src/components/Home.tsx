@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
-import Carousel from "./Carousel";
-import CarCarouselPage from "./CarCarouselPage";
+import Carousel from "./Carousel/Carousel";
+import CarCarouselPage from "./Carousel/Elements/CarCarouselPage";
 
 export default class Home extends Component {
   render() {

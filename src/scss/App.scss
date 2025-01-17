@@ -1,18 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
-@import "./variables";
+@import "./variables.scss";
 @import "./components/Arrow.scss";
-@import "./components/Carousel.scss";
-@import "./components/CarCarouselPage.scss";
-@import "./components/ImgBackground.scss";
+@import "./components/Carousel/Carousel.scss";
+@import "./components/Carousel/Elements/CarCarouselPage.scss";
+@import "./components/Carousel/Elements/ImgBackground.scss";
 @import "./components/Navigation.scss";
-@import "./components/CardCarouselElement.scss";
+@import "./components/Carousel/Elements/CardCarouselElement.scss";
 @import "./components/Footer.scss";
-@import "./components/MainContainer.scss";
-@import "./components/PageHeroDescription.scss";
-@import "./components/Section.scss";
-@import "./components/SectionImg.scss";
-@import "./components/CarSubPage.scss";
+@import "./components/Subpage/Elements/MainContainer.scss";
+@import "./components/Subpage/Elements/PageHeroDescription.scss";
+@import "./components/Subpage/Elements/Section.scss";
+@import "./components/Subpage/Elements/SectionImg.scss";
+@import "./components/Subpage/CarSubPage.scss";
 
 ::selection {
   background-color: var(--blue-selection-bg);

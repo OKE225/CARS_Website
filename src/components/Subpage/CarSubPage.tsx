@@ -1,8 +1,8 @@
 import React from "react";
-import Navigation from "./Navigation";
-import MainContainer from "./MainContainer";
-import Section from "./Section";
-import Footer from "./Footer";
+import Navigation from "../Navigation";
+import MainContainer from "./Elements/MainContainer";
+import Section from "./Elements/Section";
+import Footer from "../Footer";
 
 type Props = {
   color: string;
