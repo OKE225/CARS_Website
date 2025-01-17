@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+# 3 Cars Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GitHub License](https://img.shields.io/github/license/OKE225/CARS_Website?style=for-the-badge&labelColor=red&color=tomato)
+![GitHub repo size](https://img.shields.io/github/repo-size/OKE225/CARS_Website?style=for-the-badge&label=size&labelColor=goldenrod&color=yellow)
+![Static Badge](https://img.shields.io/badge/OKE225-blue?style=for-the-badge&label=Author&labelColor=steelblue)
 
-## Available Scripts
+The website presents three cars in three different colors. It is responsive, utilizing media queries for resolutions of 1920px, 1600px, 1280px, 1024px, 768px, and 500px. The application uses React Router to change pages without reloading the entire site.
 
-In the project directory, you can run:
+Components are created using props. The application utilizes state and localStorage to store values that remember which page you are currently on.
 
-### `npm start`
+![Carousel](./src/assets/docs/redCarousel.png)
+![Carousel](./src/assets/docs/redSubpage.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[**➜ Live**](https://oke225.github.io/CARS_Website/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## ⚙️ Technologies Used
 
-### `npm test`
+- React v.18
+- React Router v.6
+- TypeScript v.4
+- JavaScript
+- SASS
+- CSS 3
+- HTML 5
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 💻 Features
 
-### `npm run build`
+- Responsive
+- React Router
+- Carousel
+- Animation SASS
+- Modular Components
+- State & LocalStorage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📄 License
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The [MIT License](./LICENSE) (MIT). Please see License File for more information.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🔎 See Also
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[GitHub profile](https://github.com/OKE225)
