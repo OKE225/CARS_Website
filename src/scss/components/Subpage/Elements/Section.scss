@@ -1,82 +1,19 @@
-@mixin right-text {
-  display: flex;
-  align-items: center;
-  margin: 100px 0;
-
-  .text-container {
-    width: 45%;
-    padding: 0 100px;
-
-    h2 {
-      font-size: 2em;
-    }
-
-    p {
-      font-size: 1.1em;
-      margin: 25px 0;
-      color: var(--darker-text-color);
-    }
-  }
-}
-
-@mixin left-text {
-  display: flex;
-  align-items: center;
-  margin: 200px 0;
-
-  .text-container {
-    width: 40%;
-    padding: 0 100px;
-
-    h2 {
-      font-size: 2em;
-    }
-
-    p {
-      font-size: 1.1em;
-      margin: 25px 0;
-      color: var(--darker-text-color);
-    }
-  }
-}
-
-@mixin mobile-text {
-  display: flex;
-  align-items: center;
-  margin: 200px 0 100px 0;
-
-  .text-container {
-    width: 60%;
-    padding: 0 100px;
-
-    h2 {
-      font-size: 2em;
-    }
-
-    p {
-      font-size: 1.1em;
-      margin: 25px 0;
-      color: var(--darker-text-color);
-    }
-  }
-}
-
 #section-right-text-red,
 #section-right-text-green,
 #section-right-text-violet {
-  @include right-text();
+  @include sectionText(100px, 45%);
 }
 
 #section-left-text-red,
 #section-left-text-green,
 #section-left-text-violet {
-  @include left-text();
+  @include sectionText(200px, 40%);
 }
 
 #section-mobile-text-red,
 #section-mobile-text-green,
 #section-mobile-text-violet {
-  @include mobile-text();
+  @include sectionText(100px, 60%);
 }
 
 #section-right-text-red,
@@ -239,6 +176,7 @@
   #section-mobile-text-red,
   #section-mobile-text-green,
   #section-mobile-text-violet {
+    margin: 0;
     flex-direction: column;
     margin-bottom: 50px;
     width: 100%;

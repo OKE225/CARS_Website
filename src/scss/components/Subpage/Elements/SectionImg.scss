@@ -1,38 +1,11 @@
-@mixin corners {
-  position: absolute;
-  display: block;
-  height: 50%;
-  width: 50%;
-  z-index: -1;
-}
-
-@mixin image {
-  object-fit: cover;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-}
-
 .img-container {
-  width: 55%;
-  height: auto;
-  object-fit: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  padding: 0;
-  margin: 0;
-
-  img {
-    @include image();
-  }
+  @include sectionImageContainer(55%);
 
   .red-corners,
   .green-corners,
   .violet-corners {
     span.square {
-      @include corners();
+      @include sectionImageCorners();
 
       &:nth-child(1) {
         left: -5px;
@@ -48,25 +21,13 @@
 }
 
 .img-container-2 {
-  width: 60%;
-  height: auto;
-  object-fit: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  padding: 0;
-  margin: 0;
-
-  img {
-    @include image();
-  }
+  @include sectionImageContainer(60%);
 
   .red-corners,
   .green-corners,
   .violet-corners {
     span.square {
-      @include corners();
+      @include sectionImageCorners();
 
       &:nth-child(1) {
         left: -5px;
@@ -82,25 +43,13 @@
 }
 
 .img-container-mobile {
-  width: 40%;
-  height: auto;
-  object-fit: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  padding: 0;
-  margin: 0;
-
-  img {
-    @include image();
-  }
+  @include sectionImageContainer(40%);
 
   .red-corners,
   .green-corners,
   .violet-corners {
     span.square {
-      @include corners();
+      @include sectionImageCorners();
 
       &:nth-child(1) {
         left: -5px;
