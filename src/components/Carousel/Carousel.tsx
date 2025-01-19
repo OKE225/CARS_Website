@@ -41,11 +41,17 @@ export default class Carousel extends Component<Props, State> {
   handlePrevSlide = () => {
     localStorage.setItem(
       "carouselIndex",
-      `${this.state.currentIndex - 1 <= 0 ? 0 : this.state.currentIndex - 1}`
+      `${
+        this.state.currentIndex === 0
+          ? this.props.children.length - 1
+          : this.state.currentIndex - 1
+      }`
     );
     this.setState((prevState) => ({
       currentIndex:
-        prevState.currentIndex <= 0 ? 0 : prevState.currentIndex - 1,
+        prevState.currentIndex === 0
+          ? this.props.children.length - 1
+          : prevState.currentIndex - 1,
     }));
   };
 
@@ -68,7 +74,9 @@ export default class Carousel extends Component<Props, State> {
             if (React.isValidElement(child)) {
               const isActive = currentIndex === index ? "active" : "";
               return (
-                <div className={`carousel-element ${isActive}`}>{child}</div>
+                <div className={`carousel-element ${isActive}`} key={index}>
+                  {child}
+                </div>
               );
             }
             return null;
