@@ -10,46 +10,45 @@ type Props = {
   paragraph2: string;
 };
 
-const Section: React.FC<Props> = (props) => {
-  switch (props.type) {
+const Section: React.FC<Props> = ({
+  type,
+  color,
+  image,
+  header,
+  paragraph1,
+  paragraph2,
+}) => {
+  switch (type) {
     case "right-text":
       return (
-        <div id={`section-right-text-${props.color}`}>
-          <SectionImg
-            type="right-text"
-            color={props.color}
-            image={props.image}
-          />
+        <div id={`section-right-text-${color}`}>
+          <SectionImg type="right-text" color={color} image={image} />
           <div className="text-container">
-            <h2>{props.header}</h2>
-            <p>{props.paragraph1}</p>
-            <p>{props.paragraph2}</p>
+            <h2>{header}</h2>
+            <p>{paragraph1}</p>
+            <p>{paragraph2}</p>
           </div>
         </div>
       );
     case "left-text":
       return (
-        <div id={`section-left-text-${props.color}`}>
+        <div id={`section-left-text-${color}`}>
           <div className="text-container">
-            <h2>{props.header}</h2>
-            <p>{props.paragraph1}</p>
-            <p>{props.paragraph2}</p>
+            <h2>{header}</h2>
+            <p>{paragraph1}</p>
+            <p>{paragraph2}</p>
           </div>
-          <SectionImg
-            type="left-text"
-            color={props.color}
-            image={props.image}
-          />
+          <SectionImg type="left-text" color={color} image={image} />
         </div>
       );
     case "mobile":
       return (
-        <div id={`section-mobile-text-${props.color}`}>
-          <SectionImg type="mobile" color={props.color} image={props.image} />
+        <div id={`section-mobile-text-${color}`}>
+          <SectionImg type="mobile" color={color} image={image} />
           <div className="text-container">
-            <h2>{props.header}</h2>
-            <p>{props.paragraph1}</p>
-            <p>{props.paragraph2}</p>
+            <h2>{header}</h2>
+            <p>{paragraph1}</p>
+            <p>{paragraph2}</p>
           </div>
         </div>
       );

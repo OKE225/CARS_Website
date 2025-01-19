@@ -21,16 +21,16 @@ type Props = {
   };
 };
 
-const CarSubPage: React.FC<Props> = (props) => {
+const CarSubPage: React.FC<Props> = ({ color, mainInfo, section }) => {
   return (
-    <div className={`${props.color}-page`}>
-      <Navigation color={props.color} />
-      <MainContainer color={props.color} mainInfo={props.mainInfo} />
+    <div className={`${color}-page`}>
+      <Navigation color={color} />
+      <MainContainer color={color} mainInfo={mainInfo} />
       <div className="content">
-        {props.section.map((item, index) => (
+        {section.map((item, index) => (
           <Section
             key={index}
-            color={props.color}
+            color={color}
             type={item.type}
             image={item.image}
             header={item.header}

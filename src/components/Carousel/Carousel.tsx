@@ -29,28 +29,28 @@ export default class Carousel extends Component<Props, State> {
   }
 
   handleNextSlide = () => {
+    const { currentIndex } = this.state;
+    const { children } = this.props;
     localStorage.setItem(
       "carouselIndex",
-      `${(this.state.currentIndex + 1) % this.props.children.length}`
+      `${(currentIndex + 1) % children.length}`
     );
     this.setState((prevState) => ({
-      currentIndex: (prevState.currentIndex + 1) % this.props.children.length,
+      currentIndex: (prevState.currentIndex + 1) % children.length,
     }));
   };
 
   handlePrevSlide = () => {
+    const { currentIndex } = this.state;
+    const { children } = this.props;
     localStorage.setItem(
       "carouselIndex",
-      `${
-        this.state.currentIndex === 0
-          ? this.props.children.length - 1
-          : this.state.currentIndex - 1
-      }`
+      `${currentIndex === 0 ? children.length - 1 : currentIndex - 1}`
     );
     this.setState((prevState) => ({
       currentIndex:
         prevState.currentIndex === 0
-          ? this.props.children.length - 1
+          ? children.length - 1
           : prevState.currentIndex - 1,
     }));
   };
@@ -67,10 +67,11 @@ export default class Carousel extends Component<Props, State> {
 
   render() {
     const { currentIndex } = this.state;
+    const { children } = this.props;
     return (
       <div id="carousel-container">
         <div id="carousel">
-          {React.Children.map(this.props.children, (child, index) => {
+          {React.Children.map(children, (child, index) => {
             if (React.isValidElement(child)) {
               const isActive = currentIndex === index ? "active" : "";
               return (

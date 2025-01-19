@@ -8,16 +8,21 @@ type Props = {
   descBrand: string;
 };
 
-const CardCarouselElement: React.FC<Props> = (props) => {
+const CardCarouselElement: React.FC<Props> = ({
+  color,
+  yearBrand,
+  nameBrand,
+  descBrand,
+}) => {
   return (
-    <div id={`card-home-${props.color}`}>
-      <Link to={`/${props.color}-car`}>
+    <div id={`card-home-${color}`}>
+      <Link to={`/${color}-car`}>
         <div className="card">
           <header>
-            <h4 className="year">{props.yearBrand}</h4>
-            <h2 className="title">{props.nameBrand}</h2>
+            <h4 className="year">{yearBrand}</h4>
+            <h2 className="title">{nameBrand}</h2>
           </header>
-          <div className="text">{props.descBrand}</div>
+          <div className="text">{descBrand}</div>
           <button className="btn">Explore Now</button>
           <div className="corners">
             <span className="square"></span>

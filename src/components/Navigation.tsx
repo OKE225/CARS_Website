@@ -5,9 +5,9 @@ type Props = {
   color: string;
 };
 
-const Navigation: React.FC<Props> = (props) => {
+const Navigation: React.FC<Props> = ({ color }) => {
   return (
-    <nav id={`navigation-${props.color}`}>
+    <nav id={`navigation-${color}`}>
       <Link to="/">
         <h1>
           CA<span>RS</span>

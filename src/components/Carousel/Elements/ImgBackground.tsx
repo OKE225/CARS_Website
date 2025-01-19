@@ -4,8 +4,8 @@ type Props = {
   color: string;
 };
 
-const ImgBackground: React.FC<Props> = (props) => {
-  return <div id={`img-background-${props.color}`}></div>;
+const ImgBackground: React.FC<Props> = ({ color }) => {
+  return <div id={`img-background-${color}`}></div>;
 };
 
 export default ImgBackground;

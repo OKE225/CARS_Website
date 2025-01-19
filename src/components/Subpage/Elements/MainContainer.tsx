@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import PageHeroDescription from "./PageHeroDescription";
 
 type Props = {
@@ -11,18 +11,15 @@ type Props = {
   };
 };
 
-export default class MainContainer extends Component<Props> {
-  render() {
-    return (
-      <div id={`main-${this.props.color}-container`}>
-        <div className="img-container">
-          <img src={this.props.mainInfo.image} alt="" />
-        </div>
-        <PageHeroDescription
-          color={this.props.color}
-          mainInfo={this.props.mainInfo}
-        />
+const MainContainer: React.FC<Props> = ({ color, mainInfo }) => {
+  return (
+    <div id={`main-${color}-container`}>
+      <div className="img-container">
+        <img src={mainInfo.image} alt="" />
       </div>
-    );
-  }
-}
+      <PageHeroDescription color={color} mainInfo={mainInfo} />
+    </div>
+  );
+};
+
+export default MainContainer;

@@ -10,16 +10,21 @@ type Props = {
   descBrand: string;
 };
 
-const CarCarouselPage: React.FC<Props> = (props) => {
+const CarCarouselPage: React.FC<Props> = ({
+  color,
+  yearBrand,
+  nameBrand,
+  descBrand,
+}) => {
   return (
     <div className="car-page">
-      <ImgBackground color={props.color} />
-      <Navigation color={props.color} />
+      <ImgBackground color={color} />
+      <Navigation color={color} />
       <CardCarouselElement
-        color={props.color}
-        yearBrand={props.yearBrand}
-        nameBrand={props.nameBrand}
-        descBrand={props.descBrand}
+        color={color}
+        yearBrand={yearBrand}
+        nameBrand={nameBrand}
+        descBrand={descBrand}
       />
     </div>
   );
